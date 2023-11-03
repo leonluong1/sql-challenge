@@ -28,6 +28,7 @@ select d.dept_no, e.emp_no, e.last_name, e.first_name, d.dept_name
 from Dept_Emp as de
 join Departments as d on de.dept_no=d.dept_no
 join Employees as e on de.emp_no=e.emp_no
+order by e.emp_no
 ;
 -- Question 5
 select first_name, last_name, sex
@@ -35,7 +36,7 @@ from Employees
 where first_name='Hercules' and last_name like 'B%'
 ;
 -- Question 6
-select e.emp_no, e.last_name, e.first_name
+select e.emp_no, e.last_name, e.first_name, d.dept_name
 from Dept_Emp as de
 join Departments as d on de.dept_no=d.dept_no
 join Employees as e on de.emp_no=e.emp_no
