@@ -1,4 +1,6 @@
 # Pewlett Hackard Employee Analysis
+Module 9 SQL Challenge -- Berkeley Data Analytics Boot Camp
+
 This project is about examining over 300,000 employees that were employeed through the 1980s and 1990s.
 We included an Entity Relationship Diagram and the corresponding exported sql file.
 We looked through different queries to try to find meaningful conclusions about the employees.
